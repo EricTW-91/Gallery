@@ -1,0 +1,137 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #fff;
+  padding: 20px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+  height: 8vh;
+}
+
+header h1 {
+  margin-left: 5px;
+  color: #fff;
+}
+
+header div {
+  position: relative;
+  left: 850px;
+  width: 30%;
+}
+
+header div a {
+  color: #fff;
+  margin-right: 3%;
+}
+
+header button {
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+header .searchBt {
+  margin-left: 10px;
+}
+
+header .searchBt img {
+  width: 30px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 5%;
+  background-color: #000;
+}
+
+main section {
+  padding: 80 auto;
+  background-color: #111;
+  width: 95%;
+}
+
+main section figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+}
+
+main section figure a {
+  max-height: 150px;
+  margin: 3px;
+}
+
+main section figure a img {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+main section article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20%)[4];
+      grid-template-columns: repeat(4, 20%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 80px 20px 20px 0;
+}
+
+main section article a {
+  max-height: 150px;
+  max-width: 20%;
+  margin: 3px;
+}
+
+main section article a img {
+  max-height: 150px;
+  max-width: 100%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */
